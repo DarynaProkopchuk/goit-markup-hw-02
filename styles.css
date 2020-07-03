@@ -4,3 +4,86 @@
   --accent-color: #18a0fb;
   --primary-white-color: #ffffff;
 }
+.logo{
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 1,16;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.logo:hover{
+  color: ;
+}
+.logo-accent{
+  color: #2196F3;
+}
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: Roboto; sans-serif
+  font-style: 400;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #212121;
+  background-color:#ffffff;
+}
+.link{
+  text-decoration: none;
+}
+.list .site-nav-list
+{
+  list-style: none;
+}
+
+/*Hero*/
+
+
+  .hero{
+
+  }
+  .hero-title{
+ font-family: Roboto;
+font-style: 400;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+background-color: #2196F3;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+  }
+.hero-button{
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: Roboto;
+font-style: 400;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.86;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+}
+
+.section-title {
+}
+
+<!--ссылки на соцсети--!>
+.list-social {
+
+}
