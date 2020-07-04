@@ -1,41 +1,75 @@
 :root {
-  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --primary-text-color: #212121;
   --title-text-color: #000000;
-  --accent-color: #18a0fb;
+  --accent-color: #2196F3;
   --primary-white-color: #ffffff;
+  --text-color: #757575;
+  --social-list-color: #AFB1B8;
 }
+
 .logo{
-  font-family: Raleway;
+font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 1,16;
 letter-spacing: 0.03em;
 
-color: #212121;
+color:  var(--primary-text-color);
 
 }
-.logo:hover{
-  color: ;
-}
+
 .logo-accent{
-  color: #2196F3;
-}
-.site-nav .link {
-  text-transform: uppercase;
+  color: var(--accent-color);
 }
 
-body {
+/*Studio*/
+
+
+.body {
   font-family: Roboto; sans-serif
   font-style: 400;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.2;
-  color: #212121;
-  background-color:#ffffff;
+  color: var(--primary-text-color);
+  background-color:  #ffffff;
+  text-decoration: none;
 }
+.site-nav-list{
+font-style: 400;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+list-style: none;
+color: var(--primary-text-color);
+
+}
+
+.site-nav-list-link:hover
+{color: var(--accent-color);}
+
+.site-nav-list-link:focus
+{color: var(--accent-color)}
+.site-nav-list-link:active {
+color: var(--accent-color);
+}
+ 
+
+.title {
+font-style: 400;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
 .link{
   text-decoration: none;
+  list-style: none;
 }
 .list .site-nav-list
 {
@@ -44,10 +78,6 @@ body {
 
 /*Hero*/
 
-
-  .hero{
-
-  }
   .hero-title{
  font-family: Roboto;
 font-style: 400;
@@ -55,7 +85,7 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 
-background-color: #2196F3;
+background-color: var(--accent-color);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -63,7 +93,7 @@ color: #FFFFFF;
 
   }
 .hero-button{
-background: #2196F3;
+background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-family: Roboto;
@@ -80,10 +110,142 @@ color: #FFFFFF;
 
 }
 
-.section-title {
+/*ABOUTUS*/
+.aboutus-list{
+  list-style: none;
 }
 
-<!--ссылки на соцсети--!>
-.list-social {
+.aboutus-title{
+  
+font-style: 400;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--primary-text-color);
+
+}
+.aboutus-text{
+  font-style: 400;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+color: var(--text-color);
+
+}
+
+
+
+/*What We do*/
+.whatwedo-list{
+list-style: none;
+}
+.whatwedo-list-title{
+ background-color:  var(--text-color);
+font-style: 400;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+/*OURE TEAME*/
+
+.team-list{
+  list-style: none;
+}
+.team-list-title{
+ font-style: 400;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+
+}
+.team-list-desc{
+ font-style: 400;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--text-color);
+
+}
+ .team-list-social
+ {
+   list-style: none;
+   text-decoration: none;
+   color: var(--social-list-color);
+
+}
+.team-list-social :hover,
+.team-list-social :focus{
+  color: var(--accent-color);
+}
+
+/*Uore Clients*/
+
+.section-client-list{
+  list-style: none;
+}
+.section-client-list-link:hover{
+  color: var(--accent-color);
+}
+/*footer*/
+
+.footer-list{
+  list-style: none;
+  text-decoration: none;
+}
+.footer-list-adress{
+font-family: Roboto;
+font-style: 400;
+font-weight: 400;
+font-size: 14px;
+line-height: 1,7;
+background-color: var(--text-color);
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-social-list{
+  list-style: none;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+} 
+.footer-social-list-item:hover{
+  color: var(--accent-color);
+}
+.footer-title{
+font-family: Roboto;
+font-style: 400;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+background-color: var(--primary-text-color);
+color: #FFFFFF;
 
 }
